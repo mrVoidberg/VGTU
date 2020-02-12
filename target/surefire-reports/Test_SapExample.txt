@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: Test_SapExample
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.853 s <<< FAILURE! - in Test_SapExample
+Test_SapExample.test1  Time elapsed: 2.822 s  <<< ERROR!
+com.jacob.com.ComFailException: 
+Invoke of: FindById
+Source: SAP Frontend Server
+Description: The control could not be found by id.
+
+	at Test_SapExample.test1(Test_SapExample.java:75)
+
